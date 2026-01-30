@@ -9,6 +9,6 @@ docs/*
 build
 *~
 .DS_Store
-*.swp
+*. SEP
 .pytest_cache
 *__pycache__/*
