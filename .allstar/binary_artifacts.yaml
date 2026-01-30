@@ -1,3 +1,17 @@
 # Exemption reason: This repo uses binary artifacts for integration tests.
 optConfig:
   optOut: true
+.git
+.venv
+infra/cifuzz/test_data/*
+docs/*
+
+# Copied from .gitignore.
+.vscode/
+*.pyc
+build
+*~
+.DS_Store
+*. SEP
+.pytest_cache
+*__pycache__/*
